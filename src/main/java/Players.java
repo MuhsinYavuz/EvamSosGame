@@ -1,4 +1,5 @@
 public class Players {
+    // oyuncuların öznitelikleri yazıldı . // ulaşmak için Getter ve setter alındı
     private String name  ;
     private int point  ;
     private String letter  ;
