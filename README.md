@@ -1,26 +1,16 @@
 # EvamSosGame
-Selamlar,
+Oyuncu için kullanıcı ismi alır 
+Oyuncu satır ve sütun girerek OyUN alanını oluşturur . 
+3*3 ve 7*7 aralığında olmalıdır. Yoksa oyun başlamaz , tekrardan oyun alanı girmenizi ister . Başarılı bir şekilde giriş yapıldıktan sonra 
+alan oluşturulur . 
 
-Bitirme projeniz ile birlikte teslim etmeniz gereken ek proje ile ilgili detayları aşağıda bulabilirsiniz. 
-Bir sorunuz olursa eğitmeniniz ile iletişime geçebilirsiniz.
+Oyun 1 gerçek oyuncu ve 1 bilgisayar ile oynanır . 
+Oyun başlamadan önce her kullanıcıya rastgele harf verilir . o ve s
+Daha sonra oyun başlamadan önce kimin başlayacağı rastgele belirlenir ve oyunda belirtilir . 
+Oyuna başlayan kişi satır ve sutun numarası girerek ilgili alana harfini koyar .
+Eğer ilgili alan dolu yada öyle bir alan yok ise bunu oyun belirtir ve tekrar girmesini ister. 
+Gerçek kullanıcı girdiğin zaman bilgisayar otomatik olarak rastgele bir alana harfini koyar. Ve oyun karşılıklı olarak devam eder . 
+Eğer bir oyuncu belirtilen kurallara göre Sos yapar ise Sos yaptığı alan kadar 1 puan alır . ve sıra yine kendisinde olur . 
+oyun tüm alanlar dolana kadar oynanır . Ve alanlar dolunca puanlar karşılaştırılır ve kazananı belirtir . Eşitlik olması halinde beraberlik soylenir . 
 
-"Kare şeklinde nxn kutulardan oluşan bir panelde iki kişi tarafından oynanan bir oyundur. Oyun sırasında 
-her bir kutuya s yada o harflerinden biri yerleştirilir. Oyunun başında hangi oyuncunun hangi harfi yerleştireceği 
-ve kimin başlayacağına karar verilir. Amaç bir harf koyduğumuzda yatayda, dikeyde yada çaprazda SOS kelimesini oluşturmaktır.
- SOS kelimesini oluşturan oyuncu 1 puan alır ve tekrar harf ekleme hakkı kazanır. Panel üzerinde hiç boş kutu kalmayana kadar 
-oyun oynanır, sonunda en çok puanı alan oyunu kazanır.
 
-Kurallar:
-Panel büyüklüğü oyunun en başında konsoldan girdi olarak alınır. Minimum 3x3 maksimum 7x7 büyüklüğünde olmalıdır.
-
-Oyun bir kullanıcı tarafından bilgisayara karşı oynanır.
-
-Hangi oyuncunun hangi harfi alacağına ve kimin başlayacağına random karar verilir.
-
-Oyuncu hangi kutuya harfini girmek istediğini satır ve sütun numarasını konsoldan girerek belli eder.
-
-Bilgisayar hangi kutuya harf yazacağına panel üzerindeki boş kutulardan birini random seçerek karar verir.
-
-Panele her karakter girişinde panelin güncel hali satır ve sütun numaraları ile birlikte ve oyuncuların puan durumu ekranda gösterilir.
-
-Dolu kutulara harf yazılmasına izin verilmez."
